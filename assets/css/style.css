@@ -1,3 +1,72 @@
 body {
   background-color: var(--Eggshell);
 }
+
+#container {
+	background-color: var(--White);
+	border-radius: 1rem;
+
+	/* Tentar fazer com grid */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	
+	width: 50rem;
+	margin: 4rem auto;
+	padding: 2rem;
+}
+
+section.introduction .plate-of-food img {
+	width: 100%;
+	border-radius: 1rem;
+}
+
+section.introduction .plate-of-food h1 {
+	font-size: 2.5rem;
+	margin-top: 2rem;
+	color: var(--Dark-Charcoal);
+	font-family: "Young Serif", serif;
+	font-weight: 400;
+}
+
+section.introduction .plate-of-food .description {
+	margin-top: 1rem;
+	font-family: "Outfit", sans-serif;
+	font-size: 1.1rem;
+	color: var(--Wenge-Brown);
+}
+
+section.introduction .preparation {
+	background-color: var(--Rose-White);
+	padding: 2rem 2.5rem;
+	margin-top: 2rem;
+	border-radius: 1rem;
+}
+
+section.introduction .preparation .title {
+	color: var(--dark-Raspberry);
+	font-family: "Outfit", sans-serif;
+	font-size: 1.3rem;
+}
+
+section.introduction .preparation .step-by-step {
+	margin-left: 2rem;
+	margin-top: 1rem;
+	font-family: "Outfit", sans-serif;
+
+}
+
+section.introduction .preparation .step-by-step .item .step {
+	margin: .5rem 1rem;
+}
+
+section.introduction .preparation .step-by-step .item .step .paragraph {
+	font-size: .9rem;
+	color: var(--Wenge-Brown);
+}
+
+section.introduction .preparation .step-by-step .item .step .paragraph .emphasis {
+	color: var(--black);
+	font-weight: bold;
+}
