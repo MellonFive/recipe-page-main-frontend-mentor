@@ -24,7 +24,7 @@ section.introduction .plate-of-food img {
 }
 
 section.introduction .plate-of-food h1 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	margin-top: 2rem;
 	color: var(--Dark-Charcoal);
 	font-family: "Young Serif", serif;
@@ -73,4 +73,33 @@ section.introduction .preparation .step-by-step .item .step .paragraph {
 section.introduction .preparation .step-by-step .item .step .paragraph .emphasis {
 	color: var(--black);
 	font-weight: bold;
+}
+
+section.ingredients {
+	margin-top: 2rem;
+}
+
+section.ingredients .apresentation .title {
+	font-size: 2rem;
+	color: var(--nutmeg);
+	font-family: "Young Serif", serif;
+	font-weight: 300;
+}
+
+section.ingredients .apresentation .list-ingredients {
+	margin: 1.5rem 0 0 1.5rem;
+	font-family: "Outfit", sans-serif;
+}
+
+section.ingredients .apresentation .list-ingredients .item {
+	color: var(--nutmeg);
+}
+
+section.ingredients .apresentation .list-ingredients .item .step {
+	margin: .7rem 1.5rem;
+}
+
+section.ingredients .apresentation .list-ingredients .item .step .paragraph {
+	font-size: 1.2rem;
+	color: var(--Wenge-Brown);
 }
