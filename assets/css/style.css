@@ -4,6 +4,7 @@ body {
 
 #container {
 	background-color: var(--White);
+	max-width: 50rem;
 	border-radius: 1rem;
 
 	/* Tentar fazer com grid */
