@@ -71,7 +71,7 @@ section.introduction .preparation .step-by-step .item .step .paragraph {
 }
 
 section.introduction .preparation .step-by-step .item .step .paragraph .emphasis {
-	color: var(--black);
+	color: var(--Wenge-Brown);
 	font-weight: bold;
 }
 
@@ -102,9 +102,50 @@ section.ingredients .apresentation .list-ingredients .item .step {
 section.ingredients .apresentation .list-ingredients .item .step .paragraph {
 	font-size: 1.1rem;
 	color: var(--Wenge-Brown);
+	font-weight: 500;
 }
 
 #container .line {
 	width: 100%;
 	margin-top: 2rem;
+}
+
+section.instructions {
+	margin-top: 2rem;
+}
+
+section.instructions .title {
+	font-size: 2rem;
+	font-family: "Young Serif", serif;
+	color: var(--nutmeg);
+	font-weight: 300;
+}
+
+section.instructions .order-list {
+	margin-top: 1rem;
+	margin-left: 2rem;
+	font-family: "Outfit", sans-serif;	
+}
+
+section.instructions .order-list .item {
+	margin: 1rem 0;
+	font-size: 1.2rem;
+	color: var(--dark-Raspberry);
+	font-weight: 600;
+}
+
+section.instructions .order-list .item .step {
+	margin-left: .3rem;
+}
+
+section.instructions .order-list .item .step .paragraph {
+	font-size: 1.1rem;
+	color: var(--Wenge-Brown);
+	font-weight: 500;
+}
+
+section.instructions .order-list .item .step .paragraph .emphasis {
+	font-size: 1.2rem;
+	color: var(--Wenge-Brown);
+	font-weight: 600;
 }
