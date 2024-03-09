@@ -66,7 +66,7 @@ section.introduction .preparation .step-by-step .item .step {
 }
 
 section.introduction .preparation .step-by-step .item .step .paragraph {
-	font-size: .9rem;
+	font-size: 1.2rem;
 	color: var(--Wenge-Brown);
 }
 
@@ -100,7 +100,7 @@ section.ingredients .apresentation .list-ingredients .item .step {
 }
 
 section.ingredients .apresentation .list-ingredients .item .step .paragraph {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	color: var(--Wenge-Brown);
 }
 
