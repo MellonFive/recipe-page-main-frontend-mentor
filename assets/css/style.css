@@ -149,3 +149,58 @@ section.instructions .order-list .item .step .paragraph .emphasis {
 	color: var(--Wenge-Brown);
 	font-weight: 600;
 }
+
+section.nutrition {
+  margin-top: 1rem;
+  width: 100%;
+  border-top: 1px solid var(--Wenge-Brown);
+}
+
+section.nutrition .title {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+  color: var(--nutmeg);
+  font-weight: 300;
+}
+
+section.nutrition .description {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: var(--Wenge-Brown);
+  font-weight: 500;
+}
+
+section.nutrition .informations {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+section.nutrition .informations .item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20rem 0 3rem;
+}
+
+section.nutrition .informations .item.-first {
+  margin-bottom: 0.5rem;
+}
+
+section.nutrition .informations .item.-last {
+  margin-bottom: 0;
+}
+
+section.nutrition .informations .item .name,
+section.nutrition .informations .item .quantity {
+  font-size: 1.3rem;
+  color: var(--Wenge-Brown);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+section.nutrition .informations .item .quantity {
+  color: var(--nutmeg);
+  font-weight: 800;
+}
