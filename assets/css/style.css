@@ -180,7 +180,7 @@ section.nutrition .informations {
 section.nutrition .informations .item {
   display: flex;
   justify-content: space-between;
-  margin: 0 20rem 0 3rem;
+  margin: 0 15rem 0 3rem;
 }
 
 section.nutrition .informations .item.-first {
