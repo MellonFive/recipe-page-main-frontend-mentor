@@ -3,151 +3,151 @@ body {
 }
 
 #container {
-	background-color: var(--White);
-	max-width: 50rem;
-	border-radius: 1rem;
+  background-color: var(--White);
+  max-width: 50rem;
+  border-radius: 1rem;
 
-	/* Tentar fazer com grid */
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	
-	width: 50rem;
-	margin: 2rem auto;
-	padding: 3rem;
+  /* Tentar fazer com grid */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  width: 50rem;
+  margin: 2rem auto;
+  padding: 3rem;
 }
 
 section.introduction .plate-of-food img {
-	width: 100%;
-	border-radius: 1rem;
+  width: 100%;
+  border-radius: 1rem;
 }
 
 section.introduction .plate-of-food h1 {
-	font-size: 3rem;
-	margin-top: 2rem;
-	color: var(--Dark-Charcoal);
-	font-family: "Young Serif", serif;
-	font-weight: 400;
+  font-size: 3rem;
+  margin-top: 2rem;
+  color: var(--Dark-Charcoal);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
 }
 
 section.introduction .plate-of-food .description {
-	margin-top: 1rem;
-	font-family: "Outfit", sans-serif;
-	font-size: 1.1rem;
-	color: var(--Wenge-Brown);
+  margin-top: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.1rem;
+  color: var(--Wenge-Brown);
 }
 
 section.introduction .preparation {
-	background-color: var(--Rose-White);
-	padding: 2rem 2.5rem;
-	margin-top: 2rem;
-	border-radius: 1rem;
+  background-color: var(--Rose-White);
+  padding: 2rem 2.5rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
 }
 
 section.introduction .preparation .title {
-	color: var(--dark-Raspberry);
-	font-family: "Outfit", sans-serif;
-	font-size: 1.3rem;
+  color: var(--dark-Raspberry);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
 }
 
 section.introduction .preparation .step-by-step {
-	margin-left: 2rem;
-	margin-top: 1rem;
-	font-family: "Outfit", sans-serif;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-family: "Outfit", sans-serif;
 }
 
 section.introduction .preparation .step-by-step .item {
-	color: var(--dark-Raspberry);
+  color: var(--dark-Raspberry);
 }
 
-section.introduction .preparation .step-by-step .item .step {
-	margin: .5rem 1rem;
+section.introduction .preparation .step-by-step .item .paragraph {
+  font-size: 1.2rem;
+  color: var(--Wenge-Brown);
+  margin-top: 1rem;
 }
 
-section.introduction .preparation .step-by-step .item .step .paragraph {
-	font-size: 1.2rem;
-	color: var(--Wenge-Brown);
+section.introduction .preparation .step-by-step .item .paragraph::before {
+  content: "";
+  margin-left: 0.5rem;
 }
 
-section.introduction .preparation .step-by-step .item .step .paragraph .emphasis {
-	color: var(--Wenge-Brown);
-	font-weight: bold;
+section.introduction .preparation .step-by-step .item .paragraph .emphasis {
+  color: var(--Wenge-Brown);
+  font-weight: bold;
 }
 
 section.ingredients {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 section.ingredients .apresentation .title {
-	font-size: 2rem;
-	color: var(--nutmeg);
-	font-family: "Young Serif", serif;
-	font-weight: 300;
+  font-size: 2rem;
+  color: var(--nutmeg);
+  font-family: "Young Serif", serif;
+  font-weight: 300;
 }
 
 section.ingredients .apresentation .list-ingredients {
-	margin: 1.5rem 0 0 1.5rem;
-	font-family: "Outfit", sans-serif;
+  margin: 1.5rem 0 0 1.5rem;
+  font-family: "Outfit", sans-serif;
 }
 
 section.ingredients .apresentation .list-ingredients .item {
-	color: var(--nutmeg);
+  color: var(--nutmeg);
 }
 
 section.ingredients .apresentation .list-ingredients .item .step {
-	margin: .7rem 1.5rem;
+  margin: 0.7rem 1.5rem;
 }
 
 section.ingredients .apresentation .list-ingredients .item .step .paragraph {
-	font-size: 1.1rem;
-	color: var(--Wenge-Brown);
-	font-weight: 500;
-}
-
-#container .line {
-	width: 100%;
-	margin-top: 2rem;
+  font-size: 1.1rem;
+  color: var(--Wenge-Brown);
+  font-weight: 500;
 }
 
 section.instructions {
-	margin-top: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  border-top: 1px solid var(--Wenge-Brown);
 }
 
 section.instructions .title {
-	font-size: 2rem;
-	font-family: "Young Serif", serif;
-	color: var(--nutmeg);
-	font-weight: 300;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: "Young Serif", serif;
+  color: var(--nutmeg);
+  font-weight: 300;
 }
 
 section.instructions .order-list {
-	margin-top: 1rem;
-	margin-left: 2rem;
-	font-family: "Outfit", sans-serif;	
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-family: "Outfit", sans-serif;
 }
 
 section.instructions .order-list .item {
-	margin: 1rem 0;
-	font-size: 1.2rem;
-	color: var(--dark-Raspberry);
-	font-weight: 600;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: var(--dark-Raspberry);
+  font-weight: 600;
 }
 
 section.instructions .order-list .item .step {
-	margin-left: .3rem;
+  margin-left: 0.3rem;
 }
 
 section.instructions .order-list .item .step .paragraph {
-	font-size: 1.1rem;
-	color: var(--Wenge-Brown);
-	font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--Wenge-Brown);
+  font-weight: 500;
 }
 
 section.instructions .order-list .item .step .paragraph .emphasis {
-	font-size: 1.2rem;
-	color: var(--Wenge-Brown);
-	font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--Wenge-Brown);
+  font-weight: 600;
 }
 
 section.nutrition {
