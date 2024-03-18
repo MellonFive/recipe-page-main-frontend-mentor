@@ -36,4 +36,4 @@ Vai um miojo aí?
 
 ## Conclusão
 
-Falta coordenação na hora de colocar as propriedades de margin e padding.
+Falta mais coordenação na hora de colocar as propriedades de margin e padding.
