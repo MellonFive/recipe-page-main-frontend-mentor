@@ -13,7 +13,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 
-  width: 50rem;
+  width: 100%;
   margin: 2rem auto;
   padding: 3rem;
 }
@@ -30,7 +30,7 @@ section.introduction .plate-of-food img {
   border-radius: 1rem;
 }
 
-section.introduction .plate-of-food h1 {
+section.introduction .plate-of-food #title {
   font-size: 3rem;
   margin-top: 2rem;
   color: var(--Dark-Charcoal);
@@ -47,7 +47,7 @@ section.introduction .plate-of-food .description {
 
 section.introduction .preparation {
   background-color: var(--Rose-White);
-  padding: 2rem 2.5rem;
+  padding: 1.5rem 1rem;
   margin-top: 2rem;
   border-radius: 1rem;
 }
@@ -56,6 +56,7 @@ section.introduction .preparation .title {
   color: var(--dark-Raspberry);
   font-family: "Outfit", sans-serif;
   font-size: 1.3rem;
+  margin-left: 1rem;
 }
 
 section.introduction .preparation .step-by-step {
@@ -117,7 +118,6 @@ section.ingredients .apresentation .list-ingredients .item .step .paragraph {
 section.instructions {
   margin-top: 2rem;
   width: 100%;
-  border-top: 1px solid var(--Wenge-Brown);
 }
 
 section.instructions .title {
@@ -160,7 +160,6 @@ section.instructions .order-list .item .step .paragraph .emphasis {
 section.nutrition {
   margin-top: 1rem;
   width: 100%;
-  border-top: 1px solid var(--Wenge-Brown);
 }
 
 section.nutrition .title {
@@ -211,4 +210,12 @@ section.nutrition .informations .item .quantity {
 section.nutrition .informations .item .quantity {
   color: var(--nutmeg);
   font-weight: 800;
+}
+
+section.nutrition .separate .line-nutrition {
+  border-top: 1px solid  var(--Wenge-Brown);
+  margin: 2rem auto 0;
+  width: 100%;
+  opacity: 0.2;
+  margin-bottom: .5rem;
 }
