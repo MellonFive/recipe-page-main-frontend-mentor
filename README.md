@@ -33,3 +33,7 @@ Vai um miojo aí?
   <p style="font-size: 20px"><a href="https://recipe-page-main-frontend-mentor-zeta.vercel.app/" target="_blank">Clique para</a> acessar o link</a>
   </p>
 </div>
+
+## Conclusão
+
+Falta coordenação na hora de colocar as propriedades de margin e padding.
