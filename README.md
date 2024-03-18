@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="../Recipe-Page-Main/design/desktop-preview.jpg">
+  <img src="./Recipe-Page-Main/design/desktop-preview.jpg">
 </p>
 
 <br>
