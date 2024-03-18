@@ -1,0 +1,82 @@
+@media (max-width: 576px) {
+  body {
+    background-color: #FFF;
+  }
+
+  #container {
+    max-width: 25rem;
+    padding: 0;
+    border-radius: 0;
+    margin: 0 auto 3rem;
+  }
+
+  #container .line {
+    border-top: 1px solid  var(--Wenge-Brown);
+    margin: 2rem auto 0;
+    width: 85%;
+    opacity: 0.2;
+  }
+  
+  section.introduction .plate-of-food img {
+    border-radius: 0;
+  }
+
+  section.introduction .plate-of-food #title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  section.introduction .plate-of-food #title, 
+  section.introduction .plate-of-food .description {
+    padding: 0 2rem;
+  }
+
+  section.introduction .plate-of-food .description {
+    font-size: 1.3rem;
+  }
+
+  section.introduction .preparation {
+    margin: 1.5rem;
+  }
+
+  section.introduction .preparation .title {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+
+  section.introduction .preparation .step-by-step {
+    margin-top: 2rem;
+  }
+
+  section.introduction .preparation .step-by-step .item .paragraph {
+    margin-left: 1rem;
+  }
+
+  section.introduction .preparation .step-by-step .item .paragraph .responsive,
+  section.introduction .preparation .step-by-step .item .paragraph::before {
+    content: "";
+    margin-left: .7rem;
+  }
+
+  section.ingredients,
+  section.instructions,
+  section.nutrition {
+    padding: 0 2rem;
+  }
+
+  section.instructions .title {
+    margin-top: 0;
+  }
+
+  section.nutrition .informations .item {
+    margin: 0 3rem 2rem;
+  }
+
+  section.nutrition .separate .line-nutrition {
+    border-top: 1px solid  var(--Wenge-Brown);
+    margin: 2rem auto 0;
+    width: 100%;
+    opacity: 0.2;
+    margin-bottom: .7rem;
+  }
+}
