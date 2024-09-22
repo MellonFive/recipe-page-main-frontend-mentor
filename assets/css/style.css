@@ -19,7 +19,7 @@ body {
 }
 
 #container .line {
-  border-top: 1px solid  var(--Wenge-Brown);
+  border-top: 1px solid var(--Wenge-Brown);
   margin: 2rem auto 0;
   width: 100%;
   opacity: 0.2;
@@ -116,7 +116,6 @@ section.ingredients .apresentation .list-ingredients .item .step .paragraph {
 }
 
 section.instructions {
-  margin-top: 2rem;
   width: 100%;
 }
 
@@ -158,12 +157,11 @@ section.instructions .order-list .item .step .paragraph .emphasis {
 }
 
 section.nutrition {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   width: 100%;
 }
 
 section.nutrition .title {
-  margin-top: 2rem;
   font-size: 2rem;
   font-family: "Young Serif", serif;
   color: var(--nutmeg);
@@ -213,9 +211,9 @@ section.nutrition .informations .item .quantity {
 }
 
 section.nutrition .separate .line-nutrition {
-  border-top: 1px solid  var(--Wenge-Brown);
+  border-top: 1px solid var(--Wenge-Brown);
   margin: 2rem auto 0;
   width: 100%;
   opacity: 0.2;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
